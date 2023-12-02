@@ -22,3 +22,5 @@ df_dropna = df.dropna() # 欠損値のあるレコードを削除
 
 
 df_fillna =  df.fillna(mean) # 欠損値を mean で補完
+
+print(df_fillna)
